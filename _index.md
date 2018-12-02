@@ -1,5 +1,5 @@
 ---
-title: "The world’s fastest framework for building websites"
+title: "世界最速の静的サイトジェネレーター"
 date: 2017-03-02T12:00:00-05:00
 features:
   - heading: Blistering Speed
