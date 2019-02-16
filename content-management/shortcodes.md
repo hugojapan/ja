@@ -249,7 +249,7 @@ Gets a value from the current `Page's` params set in front matter, with a fall b
 {{</* param testparam */>}}
 ```
 
-Since `testparam` is a param defined in front matter of this page wi the value `Hugo Rocks!`, the above will print:
+Since `testparam` is a param defined in front matter of this page with the value `Hugo Rocks!`, the above will print:
 
 {{< param testparam >}}
 
@@ -372,7 +372,7 @@ Copy the YouTube video ID that follows `v=` in the video's URL and pass it to th
 {{</* youtube w7Ft2ymGmfc */>}}
 {{< /code >}}
 
-Furthermore, you can automatically start playback of the embedded video by setting the `autoplay` parameter to `true`. Remember that you can't mix named an unnamed parameters, so you'll need to assign the yet unnamed video id to the parameter `id`:
+Furthermore, you can automatically start playback of the embedded video by setting the `autoplay` parameter to `true`. Remember that you can't mix named and unnamed parameters, so you'll need to assign the yet unnamed video id to the parameter `id`:
 
 
 {{< code file="example-youtube-input-with-autoplay.md" >}}
