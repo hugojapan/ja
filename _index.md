@@ -2,10 +2,10 @@
 title: "世界最速のウェブサイト構築フレームワーク"
 date: 2017-03-02T12:00:00-05:00
 features:
-  - heading: Blistering Speed
+  - heading: 猛烈な速度
     image_path: /images/icon-fast.svg
-    tagline: What's modern about waiting for your site to build?
-    copy: Hugo is the fastest tool of its kind. At <1 ms per page, the average site builds in less than a second.
+    tagline: 現代にもなってサイト生成を待ちますか?
+    copy: Hugo はその種の最速なツールです。1ページにつき1マイクロ秒以下、平均して数秒でサイトを構築します。
 
   - heading: Robust Content Management
     image_path: /images/icon-content-management.svg
