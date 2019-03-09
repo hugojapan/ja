@@ -12,10 +12,10 @@ features:
     tagline: 柔軟なルール、Hugo はコンテンツ戦略家の夢です。
     copy: Hugo はプラグイン無しで、コンテンツの種類・分類・メニュー・動的な API 提供などのすべてに限りなく対応しています。
 
-  - heading: Shortcodes
+  - heading: ショートコード
     image_path: /images/icon-shortcodes.svg
-    tagline: Hugo's shortcodes are Markdown's hidden superpower.
-    copy: We love the beautiful simplicity of markdown’s syntax, but there are times when we want more flexibility. Hugo shortcodes allow for both beauty and flexibility.
+    tagline: Hugo のショートコードはマークダウンの潜在能力です。
+    copy: マークダウンの美しくシンプルな文法は素晴らしいものですが、時にはもっと柔軟さが欲しくなることもあります。Hugo のショートコードは単純さと柔軟性を両立させることが可能です。
 
   - heading: Built-in Templates
     image_path: /images/icon-built-in-templates.svg
