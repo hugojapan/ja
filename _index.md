@@ -7,10 +7,10 @@ features:
     tagline: 現代にもなってサイト生成を待ちますか?
     copy: Hugo はその種の最速なツールです。1ページにつき1マイクロ秒以下、平均して数秒でサイトを構築します。
 
-  - heading: Robust Content Management
+  - heading: 堅牢なコンテンツ管理
     image_path: /images/icon-content-management.svg
-    tagline: Flexibility rules. Hugo is a content strategist's dream.
-    copy: Hugo supports unlimited content types, taxonomies, menus, dynamic API-driven content, and more, all without plugins.
+    tagline: 柔軟なルール、Hugo はコンテンツ戦略家の夢です。
+    copy: Hugo はプラグイン無しで、コンテンツの種類・分類・メニュー・動的な API 提供などのすべてに限りなく対応しています。
 
   - heading: Shortcodes
     image_path: /images/icon-shortcodes.svg
