@@ -17,4 +17,4 @@ layout: documentation-home
 ---
 Hugoは **世界最速のウェブサイト構築フレームワーク** です。[bep](https://github.com/bep) と [spf13](https://github.com/spf13) そして多くの [貢献者](https://github.com/gohugoio/hugo/graphs/contributors) たちによりGo言語で実装されています。
 
-以下のドキュメントから一般的で有用なページを見つけることができると思います。
+以下の ドキュメントから一般的で有用なページを見つけることができると思います。
