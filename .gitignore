@@ -5,3 +5,6 @@
 # editor
 *~
 .vscode
+
+# textlint
+node_modules

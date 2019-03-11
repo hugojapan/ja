@@ -1,0 +1,31 @@
+{
+  "name": "ja",
+  "version": "1.0.0",
+  "description": "textlint for hugo japanese documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "textlint",
+    "lintall": "textlint ./**/*.md"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.md": [
+      "textlint",
+      "git add"
+    ]
+  },
+  "keywords": [],
+  "author": "peaceiris",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "textlint": "^11.2.3",
+    "textlint-rule-preset-jtf-style": "^2.3.3"
+  }
+}

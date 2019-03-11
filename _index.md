@@ -1,21 +1,21 @@
 ---
-title: "The world’s fastest framework for building websites"
+title: "世界最速のウェブサイト構築フレームワーク"
 date: 2017-03-02T12:00:00-05:00
 features:
-  - heading: Blistering Speed
+  - heading: 猛烈な速度
     image_path: /images/icon-fast.svg
-    tagline: What's modern about waiting for your site to build?
-    copy: Hugo is the fastest tool of its kind. At <1 ms per page, the average site builds in less than a second.
+    tagline: 現代にもなってサイト生成を待ちますか?
+    copy: Hugo はその種の最速なツールです。1ページにつき1マイクロ秒以下、平均して数秒でサイトを構築します。
 
-  - heading: Robust Content Management
+  - heading: 堅牢なコンテンツ管理
     image_path: /images/icon-content-management.svg
-    tagline: Flexibility rules. Hugo is a content strategist's dream.
-    copy: Hugo supports unlimited content types, taxonomies, menus, dynamic API-driven content, and more, all without plugins.
+    tagline: 柔軟なルール、Hugo はコンテンツ戦略家の夢です。
+    copy: Hugo はプラグイン無しで、コンテンツの種類・分類・メニュー・動的な API 提供などのすべてに限りなく対応しています。
 
-  - heading: Shortcodes
+  - heading: ショートコード
     image_path: /images/icon-shortcodes.svg
-    tagline: Hugo's shortcodes are Markdown's hidden superpower.
-    copy: We love the beautiful simplicity of markdown’s syntax, but there are times when we want more flexibility. Hugo shortcodes allow for both beauty and flexibility.
+    tagline: Hugo のショートコードはマークダウンの潜在能力です。
+    copy: マークダウンの美しくシンプルな文法は素晴らしいものですが、時にはもっと柔軟さが欲しくなることもあります。Hugo のショートコードは単純さと柔軟性を両立させることが可能です。
 
   - heading: Built-in Templates
     image_path: /images/icon-built-in-templates.svg
