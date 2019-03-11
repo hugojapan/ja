@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "textlint",
-    "lintall": "textlint ./**/*.md"
+    "lintall": "textlint *.md ./**/*.md"
   },
   "husky": {
     "hooks": {
@@ -27,5 +27,6 @@
     "lint-staged": "^8.1.5",
     "textlint": "^11.2.3",
     "textlint-rule-preset-jtf-style": "^2.3.3"
-  }
+  },
+  "dependencies": {}
 }
