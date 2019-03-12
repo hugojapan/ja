@@ -22,10 +22,11 @@ features:
     tagline: Hugo has common patterns to get your work done quickly.
     copy: Hugo ships with pre-made templates to make quick work of SEO, commenting, analytics and other functions. One line of code, and you're done.
 
-  - heading: Multilingual and i18n
+  - heading: 多言語対応
     image_path: /images/icon-multilingual2.svg
-    tagline: Polyglot baked in.
+    tagline: ポリグロット
     copy: Hugo provides full i18n support for multi-language sites with the same straightforward development experience Hugo users love in single-language sites.
+    copy: Hugoは多言語サイトのために十分な国際化機能を提供しており、一つの言語のサイトにおけるシンプルな開発体験と同じものを多言語サイトでも実現できます。
 
   - heading: Custom Outputs
     image_path: /images/icon-custom-outputs.svg
