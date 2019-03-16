@@ -28,10 +28,10 @@ features:
     copy: Hugo provides full i18n support for multi-language sites with the same straightforward development experience Hugo users love in single-language sites.
     copy: Hugoは多言語サイトのために十分な国際化機能を提供しており、一つの言語のサイトにおけるシンプルな開発体験と同じものを多言語サイトでも実現できます。
 
-  - heading: Custom Outputs
+  - heading: 様々な出力形式
     image_path: /images/icon-custom-outputs.svg
-    tagline: HTML not enough?
-    copy: Hugo allows you to output your content in multiple formats, including JSON or AMP, and makes it easy to create your own.
+    tagline: HTML で十分ですか?
+    copy: Hugo は複数の形式での出力が可能で、JSON や AMP そして独自の形式を簡単に作成できます。
 sections:
   - heading: "100s of Themes"
     cta: Check out the Hugo themes.
