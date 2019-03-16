@@ -1,5 +1,5 @@
 ---
-title: Hugoについて
+title: Hugo について
 linktitle: 概要
 description: 機能、ロードマップ、ライセンス、motivation
 date: 2017-02-01
@@ -17,4 +17,4 @@ aliases: [/about-hugo/,/docs/]
 toc: false
 ---
 
-Hugoは伊達じゃない
+Hugo は伊達じゃない
