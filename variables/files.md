@@ -5,12 +5,12 @@ description: "`.File`変数でコンテンツファイルのファイルシス�
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
-categories: [変数とパラメーター]
-keywords: [ファイル]
+categories: [variables and params]
+keywords: [files]
 draft: false
 menu:
   docs:
-    parent: "変数"
+    parent: "variables"
     weight: 40
 weight: 40
 sections_weight: 40
@@ -19,34 +19,34 @@ toc: false
 ---
 
 {{% note "Rendering Local Files" %}}
-Hugoのファイル関連機能を利用するショートコードやテンプレートの作成については, [ローカルファイルテンプレート](/templates/files/)を御覧ください。
+Hugo のファイル関連機能を利用するショートコードやテンプレートの作成については、[ローカルファイルテンプレート](/templates/files/)を御覧ください。
 {{% /note %}}
 
-`.File`オブジェクトには以下のフィールドがあります。
+`.File` オブジェクトには以下のフィールドがあります。
 
 .File.Path
-: コンテンツディレクトリからのオリジナル相対パス。(例：`posts/foo.en.md`)
+: コンテンツディレクトリからのオリジナル相対パス。（例：`posts/foo.en.md`）
 
 .File.LogicalName
-: ページを表すコンテンツファイル名。(例：`foo.en.md`)
+: ページを表すコンテンツファイル名。（例：`foo.en.md`）
 
 .File.TranslationBaseName
-: 拡張子やオプションの言語識別子なしのファイル名。(例：`foo`)
+: 拡張子やオプションの言語識別子なしのファイル名。（例：`foo`）
 
 .File.ContentBaseName 
-: TranslationBaseNameまたは、リーフバンドルの場合はフォルダー名。
+: TranslationBaseName または、リーフバンドルの場合はフォルダー名。
   
 .File.BaseFileName
-: 拡張子なしのファイル名。(例：`foo.en`)
+: 拡張子なしのファイル名。（例：`foo.en`）
 
 
 .File.Ext
-: コンテントファイルの拡張子(例：`md`)。`.File.Extension`でも同じように呼び出せます。`.`が含まれないことに注意してください。
+: コンテントファイルの拡張子（例：`md`）。`.File.Extension` でも同じように呼び出せます。`.`が含まれないことに注意してください。
 
 .File.Lang
-: [多言語対応][multilingual]が有効になっている場合は、そのファイルに関連付けられた言語名。(例：`en`)
+: [多言語対応][multilingual]が有効になっている場合は、そのファイルに関連付けられた言語名。（例：`en`）
 
 .File.Dir
-: `content/posts/dir1/dir2/`であれば、ディレクトリの相対パスが返されます。(例：`posts/dir1/dir2/`)
+: `content/posts/dir1/dir2/`であれば、ディレクトリの相対パスが返されます。（例：`posts/dir1/dir2/`）
 
 [Multilingual]: /content-management/multilingual/
