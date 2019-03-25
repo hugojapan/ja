@@ -1,7 +1,7 @@
 ---
 title: サイトマップテンプレート
 # linktitle: Sitemap
-description: HugoにはSitemap protocol v0.9に沿ったビルトインテンプレートが付属していますが、必要に応じてオーバーライドすることができます
+description: Hugo には Sitemap protocol v0.9 に沿ったビルトインテンプレートが付属していますが、必要に応じてオーバーライドすることができます
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -18,10 +18,10 @@ aliases: [/layout/sitemap/,/templates/sitemap/]
 toc: false
 ---
 
-`sitemap.xml` は、1つのサイトマップテンプレートを使って生成されます。
-Hugoにはこのテンプレートファイルが付属しています。*`sitemap.xml` をカスタマイズしたいのでなければ、ユーザは特に何もする必要はありません。*
+`sitemap.xml` は、1 つのサイトマップテンプレートを使って生成されます。
+Hugo にはこのテンプレートファイルが付属しています。 *`sitemap.xml` をカスタマイズしたいのでなければ、ユーザは特に何もする必要はありません。*
 
-サイトマップは`Page` であるため、サイトマップ固有の変数と併せ、すべての[ページ変数][pagevars]をテンプレート内で使用することができます。
+サイトマップは `Page` であるため、サイトマップ固有の変数と併せ、すべての[ページ変数][pagevars]をテンプレート内で使用することができます。
 
 `.Sitemap.ChangeFreq`
 : ページの更新頻度
@@ -32,18 +32,18 @@ Hugoにはこのテンプレートファイルが付属しています。*`sitem
 `.Sitemap.Filename`
 : サイトマップのファイル名
 
-もし`/layouts/sitemap.xml` にファイルが存在する場合、Hugo は付属の内部テンプレート`sitemap.xml` の代わりにこちらを使用します。
+もし `/layouts/sitemap.xml` にファイルが存在する場合、Hugo は付属の内部テンプレート `sitemap.xml` の代わりにこちらを使用します。
 
 ## サイトマップテンプレート
 
-Hugo にはサイトマップテンプレートがビルトインされていますが、必要に応じて`layouts/sitemap.xml` もしくは `layouts/_default/sitemap.xml` のどちらかに独自のテンプレートを置くことができます。
+Hugo にはサイトマップテンプレートがビルトインされていますが、必要に応じて `layouts/sitemap.xml` もしくは `layouts/_default/sitemap.xml` のどちらかに独自のテンプレートを置くことができます。
 
 多言語サイトの場合、サイトマップインデックスも作成します。
-`layouts/sitemapindex.xml` もしくは`layouts/_default/sitemapindex.xml` のどちらかに、カスタムレイアウトを指定することができます。
+`layouts/sitemapindex.xml` もしくは `layouts/_default/sitemapindex.xml` のどちらかに、カスタムレイアウトを指定することができます。
 
 ## Hugoのsitemap.xml
 
-このテンプレートは[Sitemap Protocol](http://www.sitemaps.org/protocol.html) バージョン0.9に沿っています。
+このテンプレートは [Sitemap Protocol](http://www.sitemaps.org/protocol.html) バージョン 0.9 に沿っています。
 
 ```xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -71,7 +71,7 @@ Hugo にはサイトマップテンプレートがビルトインされていま
 
 {{% note %}}
 レンダリング時、Hugo は自動的に以下のヘッダ行を追加します。
-これは有効なHTMLではないため、テンプレートには含めないでください。
+これは有効な HTML ではないため、テンプレートには含めないでください。
 
 `<?xml version="1.0" encoding="utf-8" standalone="yes" ?>`
 {{% /note %}}
@@ -105,7 +105,7 @@ Hugo にはサイトマップテンプレートがビルトインされていま
   filename = "sitemap.xml"
 {{</ code-toggle >}}
 
-コンテンツファイル内のfront matter で同名フィールドを指定することで、レンダリング時にこれらの値をオーバーライドすることができます。
+コンテンツファイル内の front matter で同名フィールドを指定することで、レンダリング時にこれらの値をオーバーライドすることができます。
 
 
 [pagevars]: /variables/page/
