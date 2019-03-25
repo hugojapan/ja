@@ -1,7 +1,7 @@
 ---
 title: サイトマップテンプレート
 # linktitle: Sitemap
-description: Hugo には Sitemap protocol v0.9 に沿ったビルトインテンプレートが付属していますが、必要に応じてオーバーライドすることができます
+description: Hugo には Sitemap protocol v0.9 に沿った内蔵テンプレートが付属していますが、必要に応じて上書きすることができます。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -21,7 +21,7 @@ toc: false
 `sitemap.xml` は、1 つのサイトマップテンプレートを使って生成されます。
 Hugo にはこのテンプレートファイルが付属しています。*`sitemap.xml` をカスタマイズしたいのでなければ、ユーザは特に何もする必要はありません。*
 
-サイトマップは `Page` であるため、サイトマップ固有の変数と併せ、すべての[ページ変数][pagevars]をテンプレート内で使用することができます。
+サイトマップは `Page` であるためサイトマップ固有の変数とあわせて、すべての[ページ変数][pagevars]をテンプレート内で使用することができます。
 
 `.Sitemap.ChangeFreq`
 : ページの更新頻度
@@ -36,12 +36,12 @@ Hugo にはこのテンプレートファイルが付属しています。*`site
 
 ## サイトマップテンプレート
 
-Hugo にはサイトマップテンプレートがビルトインされていますが、必要に応じて `layouts/sitemap.xml` もしくは `layouts/_default/sitemap.xml` のどちらかに独自のテンプレートを置くことができます。
+Hugo にはサイトマップテンプレートが内蔵されていますが、必要に応じて `layouts/sitemap.xml` もしくは `layouts/_default/sitemap.xml` のどちらかに独自のテンプレートを置くことができます。
 
 多言語サイトの場合、サイトマップインデックスも作成します。
 `layouts/sitemapindex.xml` もしくは `layouts/_default/sitemapindex.xml` のどちらかに、カスタムレイアウトを指定することができます。
 
-## Hugoのsitemap.xml
+## Hugo の sitemap.xml
 
 このテンプレートは [Sitemap Protocol](http://www.sitemaps.org/protocol.html) バージョン 0.9 に沿っています。
 
@@ -76,7 +76,7 @@ Hugo にはサイトマップテンプレートがビルトインされていま
 `<?xml version="1.0" encoding="utf-8" standalone="yes" ?>`
 {{% /note %}}
 
-## Hugoのsitemapindex.xml
+## Hugo の sitemapindex.xml
 
 これは多言語モードでサイトマップインデックスを作成するために使用されます。
 
@@ -93,7 +93,7 @@ Hugo にはサイトマップテンプレートがビルトインされていま
 </sitemapindex>
 ```
 
-## `sitemap.xml`の設定
+## `sitemap.xml` の設定
 
 `<changefreq>`, `<priority>`, `filename` のデフォルト値は、サイトの設定ファイルで指定することができます。
 
@@ -105,7 +105,7 @@ Hugo にはサイトマップテンプレートがビルトインされていま
   filename = "sitemap.xml"
 {{</ code-toggle >}}
 
-コンテンツファイル内の front matter で同名フィールドを指定することで、レンダリング時にこれらの値をオーバーライドすることができます。
+コンテンツファイル内の front matter で同名フィールドを指定することで、レンダリング時にこれらの値を上書きすることができます。
 
 
 [pagevars]: /variables/page/
