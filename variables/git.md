@@ -1,7 +1,7 @@
 ---
-title: Git情報変数
-linktitle: Git Variables
-description: コンテンツファイル毎の最新Gitリビジョンの情報を取得します。
+title: Git 情報変数
+linktitle: Git 変数
+description: コンテンツファイル毎の最新 Git リビジョン情報を取得します。
 date: 2017-03-12
 publishdate: 2017-03-12
 lastmod: 2017-03-12
