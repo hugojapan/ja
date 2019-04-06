@@ -53,6 +53,6 @@ Hugo の Git 統合はかなりパフォーマンスが良いはずですが、�
 
 ## `.Lastmod`
 
-`.GitInfo` 機能が有効になっている場合、（`Page` の）`.Lastmod` は Git の、例えば`.GitInfo.AuthorDate` から取得されます。この挙動は[日付のフロントマター設定](/getting-started/configuration/#configure-front-matter)を追加することで変更できます。
+`.GitInfo` 機能が有効になっている場合、（`Page` の）`.Lastmod` は Git の、例えば `.GitInfo.AuthorDate` から取得されます。この挙動は[日付の front matter 設定](/getting-started/configuration/#configure-front-matter)を追加することで変更できます。
 
 [configuration]: /getting-started/configuration/
