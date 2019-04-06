@@ -20,7 +20,7 @@ wip: false
 ---
 
 {{% note "`.GitInfo` Performance Considerations"  %}}
-Hugo の Git 統合はかなりパフォーマンスが良いはずですが、ビルド時間が長くなる*かも*しれません。これは Git の履歴サイズによります。
+Hugo の Git 統合はかなりパフォーマンスが良いはずですが、ビルド時間が長くなる *かも* しれません。これは Git の履歴サイズによります。
 {{% /note %}}
 
 ## `.GitInfo` の必要条件
