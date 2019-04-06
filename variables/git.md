@@ -23,11 +23,11 @@ wip: false
 Hugo の Git 統合はかなりパフォーマンスが良いはずですが、ビルド時間が長くなる*かも*しれません。これは Git の履歴サイズによります。
 {{% /note %}}
 
-## `.GitInfo` の必須要件
+## `.GitInfo` の必要条件
 
-1. Hugo サイトが Git が有効化されたディレクトリー内にあること
-2. Git がインストールされており、システムの `PATH` が通っていること
-3. Hugo プロジェクトの`.GitInfo` が有効になっていること。コマンドラインで`--enableGitInfo` フラグをつけるか、[サイトの設定ファイル][configuration]に `enableGitInfo` を `true` で設定することで有効にできます
+1. Hugo サイトが Git の有効化されたディレクトリー内にあること。
+2. Git がインストールされており、システムの `PATH` が通っていること。
+3. Hugo プロジェクトにおいて `.GitInfo` が有効になっていること。コマンドラインで `--enableGitInfo` フラグをつけるか、[サイトの設定ファイル][configuration]において `enableGitInfo` に `true` を指定することで有効にできます。
 
 ## `.GitInfo` オブジェクト
 
