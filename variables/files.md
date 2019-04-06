@@ -1,7 +1,7 @@
 ---
 title: ファイル変数
 linktitle:
-description: "`.File`変数でコンテンツファイルのファイルシステム関連データを取得できます。"
+description: "`.File` 変数でコンテンツファイルのファイルシステム関連データを取得できます。"
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -33,20 +33,19 @@ Hugo のファイル関連機能を利用するショートコードやテンプ
 .File.TranslationBaseName
 : 拡張子やオプションの言語識別子なしのファイル名。（例：`foo`）
 
-.File.ContentBaseName 
+.File.ContentBaseName
 : TranslationBaseName または、リーフバンドルの場合はフォルダー名。
-  
+
 .File.BaseFileName
 : 拡張子なしのファイル名。（例：`foo.en`）
 
-
 .File.Ext
-: コンテントファイルの拡張子（例：`md`）。`.File.Extension` でも同じように呼び出せます。`.`が含まれないことに注意してください。
+: コンテンツファイルの拡張子（例：`md`）。`.File.Extension` でも同じように呼び出せます。`.`が含まれないことに注意してください。
 
 .File.Lang
 : [多言語対応][multilingual]が有効になっている場合は、そのファイルに関連付けられた言語名。（例：`en`）
 
 .File.Dir
-: `content/posts/dir1/dir2/`であれば、ディレクトリの相対パスが返されます。（例：`posts/dir1/dir2/`）
+: `content/posts/dir1/dir2/` であれば、ディレクトリの相対パスが返されます。（例：`posts/dir1/dir2/`）
 
 [Multilingual]: /content-management/multilingual/
