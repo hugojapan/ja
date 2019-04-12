@@ -1,0 +1,8 @@
+[build]
+publish = "hugoDocs/public"
+command = "bash deploy.sh"
+
+[build.environment]
+HUGO_VERSION = "0.55.1"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
