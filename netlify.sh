@@ -1,3 +1,5 @@
+set -x -o pipefail # -x: is for debugging
+
 rm -rf hugoDocs
 mkdir .ja
 mv * .ja/
