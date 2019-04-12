@@ -33,7 +33,7 @@ features:
     tagline: HTML で十分ですか?
     copy: Hugo は複数の形式での出力が可能で、JSON や AMP そして独自の形式を簡単に作成できます。
 sections:
-  - heading: "100s of Themes"
+  - heading: "300s of Themes"
     cta: Check out the Hugo themes.
     link: http://themes.gohugo.io/
     color_classes: bg-accent-color white
@@ -47,4 +47,4 @@ sections:
     copy: "Hugo's Go-based templating provides just the right amount of logic to build anything from the simple to complex. If you prefer Jade/Pug-like syntax, you can also use Amber, Ace, or any combination of the three."
 ---
 
-Hugo は最も人気のあるオープンソース静的サイトジェネレーターの１つです。Hugo の驚くべき速度と柔軟性は、ウェブサイト構築をより楽しいものにします。
+Hugo は最も人気のあるオープンソース静的サイトジェネレーターのひとつです。Hugo の驚くべき速度と柔軟性は、ウェブサイト構築をより楽しいものにします。
