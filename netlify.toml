@@ -1,6 +1,6 @@
 [build]
 publish = "hugoDocs/public"
-command = "bash deploy.sh"
+command = "sh deploy.sh"
 
 [build.environment]
 HUGO_VERSION = "0.55.1"
