@@ -5,4 +5,5 @@ command = "rm -rf ./hugoDocs && mkdir .ja && mv * .ja/ && git clone --depth=1 -b
 [build.environment]
 HUGO_VERSION = "0.55.1"
 HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+HUGO_ENABLEGITINFO = true
+NPM_FLAGS = false
