@@ -1,7 +1,7 @@
 ---
-title: Git Info Variables
-linktitle: Git Variables
-description: Get the last Git revision information for every content file.
+title: Git 情報変数
+linktitle: Git 変数
+description: コンテンツファイル毎の最新 Git リビジョン情報を取得します。
 date: 2017-03-12
 publishdate: 2017-03-12
 lastmod: 2017-03-12
@@ -20,39 +20,39 @@ wip: false
 ---
 
 {{% note "`.GitInfo` Performance Considerations"  %}}
-Hugo's Git integrations should be fairly performant but *can* increase your build time. This will depend on the size of your Git history.
+Hugo の Git 統合はかなりパフォーマンスが良いはずですが、ビルド時間が長くなる *かも* しれません。これは Git の履歴サイズによります。
 {{% /note %}}
 
-## `.GitInfo` Prerequisites
+## `.GitInfo` の必要条件
 
-1. The Hugo site must be in a Git-enabled directory.
-2. The Git executable must be installed and in your system `PATH`.
-3. The `.GitInfo` feature must be enabled in your Hugo project by passing `--enableGitInfo` flag on the command line or by setting `enableGitInfo` to `true` in your [site's configuration file][configuration].
+1. Hugo サイトが Git の有効化されたディレクトリー内にあること。
+2. Git がインストールされており、システムの `PATH` が通っていること。
+3. Hugo プロジェクトにおいて `.GitInfo` が有効になっていること。コマンドラインで `--enableGitInfo` フラグをつけるか、[サイトの設定ファイル][configuration]において `enableGitInfo` に `true` を指定することで有効にできます。
 
-## The `.GitInfo` Object
+## `.GitInfo` オブジェクト
 
-The `GitInfo` object contains the following fields:
+`GitInfo` オブジェクトには以下のフィールドがあります。
 
 .AbbreviatedHash
-: the abbreviated commit hash (e.g., `866cbcc`)
+: 短縮形のコミットハッシュ（例：`866cbcc`）
 
 .AuthorName
-: the author's name, respecting `.mailmap`
+: 作者名。`.mailmap` に従います。
 
 .AuthorEmail
-: the author's email address, respecting `.mailmap`
+: 作者のメールアドレス。`.mailmap` に従います。
 
 .AuthorDate
-: the author date
+: 作成日時
 
 .Hash
-: the commit hash (e.g., `866cbccdab588b9908887ffd3b4f2667e94090c3`)
+: コミットハッシュ（例：`866cbccdab588b9908887ffd3b4f2667e94090c3`）
 
 .Subject
-: commit message subject (e.g., `tpl: Add custom index function`)
+: コミットメッセージの件名（例：`tpl: Add custom index function`）
 
 ## `.Lastmod`
 
-If the `.GitInfo` feature is enabled, `.Lastmod` (on `Page`) is fetched from Git i.e. `.GitInfo.AuthorDate`. This behaviour can be changed by adding your own [front matter configuration for dates](/getting-started/configuration/#configure-front-matter).
+`.GitInfo` 機能が有効になっている場合、（`Page` の）`.Lastmod` は Git の、例えば `.GitInfo.AuthorDate` から取得されます。この挙動は[日付の front matter 設定](/getting-started/configuration/#configure-front-matter)を追加することで変更できます。
 
 [configuration]: /getting-started/configuration/

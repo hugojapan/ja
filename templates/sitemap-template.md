@@ -1,7 +1,7 @@
 ---
-title: Sitemap Template
+title: サイトマップテンプレート
 # linktitle: Sitemap
-description: Hugo ships with a built-in template file observing the v0.9 of the Sitemap Protocol, but you can override this template if needed.
+description: Hugo には Sitemap protocol v0.9 に沿った内蔵テンプレートが付属していますが、必要に応じて上書きすることができます。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -18,32 +18,32 @@ aliases: [/layout/sitemap/,/templates/sitemap/]
 toc: false
 ---
 
-A single Sitemap template is used to generate the `sitemap.xml` file.
-Hugo automatically comes with this template file. *No work is needed on
-the users' part unless they want to customize `sitemap.xml`.*
+`sitemap.xml` は、1 つのサイトマップテンプレートを使って生成されます。
+Hugo にはこのテンプレートファイルが付属しています。*`sitemap.xml` をカスタマイズしたいのでなければ、ユーザは特に何もする必要はありません。*
 
-A sitemap is a `Page` and therefore has all the [page variables][pagevars] available to use in this template along with Sitemap-specific ones:
+サイトマップは `Page` であるためサイトマップ固有の変数とあわせて、すべての[ページ変数][pagevars]をテンプレート内で使用することができます。
 
 `.Sitemap.ChangeFreq`
-: The page change frequency
+: ページの更新頻度
 
 `.Sitemap.Priority`
-: The priority of the page
+: ページの優先度
 
 `.Sitemap.Filename`
-: The sitemap filename
+: サイトマップのファイル名
 
-If provided, Hugo will use `/layouts/sitemap.xml` instead of the internal `sitemap.xml` template that ships with Hugo.
+もし `/layouts/sitemap.xml` にファイルが存在する場合、Hugo は付属の内部テンプレート `sitemap.xml` の代わりにこちらを使用します。
 
-## Sitemap Templates
+## サイトマップテンプレート
 
-Hugo has built-on Sitemap templates, but you can provide your own if needed, in either `layouts/sitemap.xml` or `layouts/_default/sitemap.xml`.
+Hugo にはサイトマップテンプレートが内蔵されていますが、必要に応じて `layouts/sitemap.xml` もしくは `layouts/_default/sitemap.xml` のどちらかに独自のテンプレートを置くことができます。
 
-For multilingual sites, we also create a Sitemap index. You can provide a custom layout for that in either `layouts/sitemapindex.xml` or `layouts/_default/sitemapindex.xml`.
+多言語サイトの場合、サイトマップインデックスも作成します。
+`layouts/sitemapindex.xml` もしくは `layouts/_default/sitemapindex.xml` のどちらかに、カスタムレイアウトを指定することができます。
 
-## Hugo’s sitemap.xml
+## Hugo の sitemap.xml
 
-This template respects the version 0.9 of the [Sitemap Protocol](http://www.sitemaps.org/protocol.html).
+このテンプレートは [Sitemap Protocol](http://www.sitemaps.org/protocol.html) バージョン 0.9 に沿っています。
 
 ```xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -70,15 +70,15 @@ This template respects the version 0.9 of the [Sitemap Protocol](http://www.site
 ```
 
 {{% note %}}
-Hugo will automatically add the following header line to this file
-on render. Please don't include this in the template as it's not valid HTML.
+レンダリング時、Hugo は自動的に以下のヘッダ行を追加します。
+これは有効な HTML ではないため、テンプレートには含めないでください。
 
 `<?xml version="1.0" encoding="utf-8" standalone="yes" ?>`
 {{% /note %}}
 
-## Hugo's sitemapindex.xml
+## Hugo の sitemapindex.xml
 
-This is used to create a Sitemap index in multilingual mode:
+これは多言語モードでサイトマップインデックスを作成するために使用されます。
 
 ```xml
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -93,10 +93,11 @@ This is used to create a Sitemap index in multilingual mode:
 </sitemapindex>
 ```
 
-## Configure `sitemap.xml`
+## `sitemap.xml` の設定
 
-Defaults for `<changefreq>`, `<priority>` and `filename` values can be set in the site's config file, e.g.:
+`<changefreq>`, `<priority>`, `filename` のデフォルト値は、サイトの設定ファイルで指定することができます。
 
+例：
 {{< code-toggle file="config" >}}
 [sitemap]
   changefreq = "monthly"
@@ -104,8 +105,7 @@ Defaults for `<changefreq>`, `<priority>` and `filename` values can be set in th
   filename = "sitemap.xml"
 {{</ code-toggle >}}
 
-The same fields can be specified in an individual content file's front matter in order to override the value assigned to that piece of content at render time.
-
+コンテンツファイル内の front matter で同名フィールドを指定することで、レンダリング時にこれらの値を上書きすることができます。
 
 
 [pagevars]: /variables/page/
