@@ -17,4 +17,4 @@ aliases: [/about-hugo/,/docs/]
 toc: false
 ---
 
-Hugo は伊達じゃない
+Hugo は並大抵の静的サイトジェネレーターではありません。
