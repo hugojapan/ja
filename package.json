@@ -23,9 +23,9 @@
   "author": "peaceiris",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^2.2.0",
-    "lint-staged": "^8.1.6",
-    "mdast-util-to-string": "^1.0.5",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.1",
+    "mdast-util-to-string": "^1.0.6",
     "textlint": "^11.2.5",
     "textlint-rule-preset-jtf-style": "^2.3.3"
   },
