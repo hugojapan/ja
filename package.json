@@ -24,7 +24,7 @@
   "license": "ISC",
   "devDependencies": {
     "husky": "^3.0.0",
-    "lint-staged": "^9.0.1",
+    "lint-staged": "^9.0.2",
     "mdast-util-to-string": "^1.0.6",
     "textlint": "^11.2.5",
     "textlint-rule-preset-jtf-style": "^2.3.3"
