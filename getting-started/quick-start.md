@@ -1,5 +1,5 @@
 ---
-title: Quick Start
+title: クイックスタート
 linktitle: Quick Start
 description: Create a Hugo site using the beautiful Ananke theme.
 date: 2013-07-01
