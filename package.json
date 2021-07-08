@@ -2,6 +2,7 @@
   "name": "ja",
   "version": "1.0.0",
   "description": "textlint for hugo japanese documentation",
+  "repository": "ja",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

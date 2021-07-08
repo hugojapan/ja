@@ -22,17 +22,18 @@ features:
     tagline: Hugo has common patterns to get your work done quickly.
     copy: Hugo ships with pre-made templates to make quick work of SEO, commenting, analytics and other functions. One line of code, and you're done.
 
-  - heading: Multilingual and i18n
+  - heading: 多言語対応
     image_path: /images/icon-multilingual2.svg
-    tagline: Polyglot baked in.
+    tagline: ポリグロット
     copy: Hugo provides full i18n support for multi-language sites with the same straightforward development experience Hugo users love in single-language sites.
+    copy: Hugoは多言語サイトのために十分な国際化機能を提供しており、一つの言語のサイトにおけるシンプルな開発体験と同じものを多言語サイトでも実現できます。
 
-  - heading: Custom Outputs
+  - heading: 様々な出力形式
     image_path: /images/icon-custom-outputs.svg
-    tagline: HTML not enough?
-    copy: Hugo allows you to output your content in multiple formats, including JSON or AMP, and makes it easy to create your own.
+    tagline: HTML で十分ですか?
+    copy: Hugo は複数の形式での出力が可能で、JSON や AMP そして独自の形式を簡単に作成できます。
 sections:
-  - heading: "100s of Themes"
+  - heading: "300s of Themes"
     cta: Check out the Hugo themes.
     link: http://themes.gohugo.io/
     color_classes: bg-accent-color white
@@ -46,4 +47,4 @@ sections:
     copy: "Hugo's Go-based templating provides just the right amount of logic to build anything from the simple to complex. If you prefer Jade/Pug-like syntax, you can also use Amber, Ace, or any combination of the three."
 ---
 
-Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+Hugo は最も人気のあるオープンソース静的サイトジェネレーターのひとつです。Hugo の驚くべき速度と柔軟性は、ウェブサイト構築をより楽しいものにします。
